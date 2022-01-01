@@ -1,0 +1,16 @@
+Found 4985 files belonging to 3 classes.
+Using 3490 files for training.
+Found 30 files belonging to 3 classes.
+Using 9 files for validation.
+['COVID19', 'PNEUMONIA', 'TURBERCULOSIS']
+Epoch 1/5
+
+ 1/55 [..............................] - ETA: 5:52 - loss: 1.0929 - accuracy: 0.4531
+ 2/55 [>.............................] - ETA: 4:58 - loss: 1.6696 - accuracy: 0.6172
+ 3/55 [>.............................] - ETA: 4:51 - loss: 1.3900 - accuracy: 0.6510
+ 4/55 [=>............................] - ETA: 4:44 - loss: 1.2760 - accuracy: 0.6992
+ 5/55 [=>............................] - ETA: 4:37 - loss: 1.2203 - accuracy: 0.7406
+ 6/55 [==>...........................] - ETA: 4:26 - loss: 1.1829 - accuracy: 0.7500
+ 7/55 [==>...........................] - ETA: 4:13 - loss: 1.1422 - accuracy: 0.7612
+ 8/55 [===>..........................] - ETA: 4:03 - loss: 1.0869 - accuracy: 0.7754
+ 9/55 [===>..........................] - ETA: 3:54 - loss: 1.0304 - accuracy: 0.7778

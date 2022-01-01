@@ -1,0 +1,835 @@
+Found 4985 files belonging to 3 classes.
+Using 3490 files for training.
+Found 30 files belonging to 3 classes.
+Using 9 files for validation.
+['COVID19', 'PNEUMONIA', 'TURBERCULOSIS']
+Epoch 1/5
+
+ 1/55 [..............................] - ETA: 9:03 - loss: 1.0381 - accuracy: 0.7500
+ 2/55 [>.............................] - ETA: 4:03 - loss: 3.4498 - accuracy: 0.7656
+ 3/55 [>.............................] - ETA: 3:59 - loss: 2.8321 - accuracy: 0.7500
+ 4/55 [=>............................] - ETA: 3:53 - loss: 2.3397 - accuracy: 0.7188
+ 5/55 [=>............................] - ETA: 3:48 - loss: 2.0701 - accuracy: 0.6875
+ 6/55 [==>...........................] - ETA: 3:43 - loss: 1.8970 - accuracy: 0.6927
+ 7/55 [==>...........................] - ETA: 3:38 - loss: 1.7658 - accuracy: 0.7188
+ 8/55 [===>..........................] - ETA: 3:33 - loss: 1.6511 - accuracy: 0.7383
+ 9/55 [===>..........................] - ETA: 3:29 - loss: 1.5425 - accuracy: 0.7448
+10/55 [====>.........................] - ETA: 3:24 - loss: 1.4724 - accuracy: 0.7391
+11/55 [=====>........................] - ETA: 3:19 - loss: 1.4044 - accuracy: 0.7372
+12/55 [=====>........................] - ETA: 3:15 - loss: 1.3380 - accuracy: 0.7370
+13/55 [======>.......................] - ETA: 3:10 - loss: 1.2760 - accuracy: 0.7392
+14/55 [======>.......................] - ETA: 3:05 - loss: 1.2207 - accuracy: 0.7489
+15/55 [=======>......................] - ETA: 3:01 - loss: 1.1706 - accuracy: 0.7563
+16/55 [=======>......................] - ETA: 2:56 - loss: 1.1261 - accuracy: 0.7598
+17/55 [========>.....................] - ETA: 2:52 - loss: 1.0813 - accuracy: 0.7629
+18/55 [========>.....................] - ETA: 2:47 - loss: 1.0393 - accuracy: 0.7674
+19/55 [=========>....................] - ETA: 2:43 - loss: 1.0044 - accuracy: 0.7722
+20/55 [=========>....................] - ETA: 2:38 - loss: 0.9751 - accuracy: 0.7727
+21/55 [==========>...................] - ETA: 2:34 - loss: 0.9420 - accuracy: 0.7798
+22/55 [===========>..................] - ETA: 2:29 - loss: 0.9115 - accuracy: 0.7855
+23/55 [===========>..................] - ETA: 2:25 - loss: 0.8863 - accuracy: 0.7894
+24/55 [============>.................] - ETA: 2:20 - loss: 0.8556 - accuracy: 0.7969
+25/55 [============>.................] - ETA: 2:16 - loss: 0.8331 - accuracy: 0.8000
+26/55 [=============>................] - ETA: 2:11 - loss: 0.8069 - accuracy: 0.8065
+27/55 [=============>................] - ETA: 2:07 - loss: 0.7896 - accuracy: 0.8079
+28/55 [==============>...............] - ETA: 2:02 - loss: 0.7731 - accuracy: 0.8092
+29/55 [==============>...............] - ETA: 1:58 - loss: 0.7538 - accuracy: 0.8125
+30/55 [===============>..............] - ETA: 1:53 - loss: 0.7361 - accuracy: 0.8172
+31/55 [===============>..............] - ETA: 1:49 - loss: 0.7172 - accuracy: 0.8216
+32/55 [================>.............] - ETA: 1:44 - loss: 0.7013 - accuracy: 0.8252
+33/55 [=================>............] - ETA: 1:40 - loss: 0.7013 - accuracy: 0.8229
+34/55 [=================>............] - ETA: 1:35 - loss: 0.6882 - accuracy: 0.8249
+35/55 [==================>...........] - ETA: 1:31 - loss: 0.6732 - accuracy: 0.8281
+36/55 [==================>...........] - ETA: 1:26 - loss: 0.6587 - accuracy: 0.8316
+37/55 [===================>..........] - ETA: 1:22 - loss: 0.6509 - accuracy: 0.8332
+38/55 [===================>..........] - ETA: 1:17 - loss: 0.6477 - accuracy: 0.8335
+39/55 [====================>.........] - ETA: 1:13 - loss: 0.6376 - accuracy: 0.8353
+40/55 [====================>.........] - ETA: 1:08 - loss: 0.6274 - accuracy: 0.8375
+41/55 [=====================>........] - ETA: 1:03 - loss: 0.6173 - accuracy: 0.8392
+42/55 [=====================>........] - ETA: 59s - loss: 0.6120 - accuracy: 0.8404 
+43/55 [======================>.......] - ETA: 54s - loss: 0.6078 - accuracy: 0.8401
+44/55 [=======================>......] - ETA: 50s - loss: 0.5986 - accuracy: 0.8423
+45/55 [=======================>......] - ETA: 45s - loss: 0.5902 - accuracy: 0.8434
+46/55 [========================>.....] - ETA: 41s - loss: 0.5846 - accuracy: 0.8438
+47/55 [========================>.....] - ETA: 36s - loss: 0.5754 - accuracy: 0.8461
+48/55 [=========================>....] - ETA: 32s - loss: 0.5678 - accuracy: 0.8477
+49/55 [=========================>....] - ETA: 27s - loss: 0.5603 - accuracy: 0.8492
+50/55 [==========================>...] - ETA: 22s - loss: 0.5531 - accuracy: 0.8506
+51/55 [==========================>...] - ETA: 18s - loss: 0.5465 - accuracy: 0.8517
+52/55 [===========================>..] - ETA: 13s - loss: 0.5395 - accuracy: 0.8531
+53/55 [===========================>..] - ETA: 9s - loss: 0.5330 - accuracy: 0.8550 
+54/55 [============================>.] - ETA: 4s - loss: 0.5254 - accuracy: 0.8565
+55/55 [==============================] - ETA: 0s - loss: 0.5220 - accuracy: 0.8576
+55/55 [==============================] - 259s 5s/step - loss: 0.5220 - accuracy: 0.8576 - val_loss: 0.7416 - val_accuracy: 0.6667
+Epoch 2/5
+
+ 1/55 [..............................] - ETA: 4:21 - loss: 0.2044 - accuracy: 0.9375
+ 2/55 [>.............................] - ETA: 4:24 - loss: 0.2308 - accuracy: 0.9141
+ 3/55 [>.............................] - ETA: 4:10 - loss: 0.1939 - accuracy: 0.9271
+ 4/55 [=>............................] - ETA: 4:11 - loss: 0.1936 - accuracy: 0.9219
+ 5/55 [=>............................] - ETA: 4:04 - loss: 0.1648 - accuracy: 0.9344
+ 6/55 [==>...........................] - ETA: 3:58 - loss: 0.1719 - accuracy: 0.9349
+ 7/55 [==>...........................] - ETA: 3:51 - loss: 0.1807 - accuracy: 0.9330
+ 8/55 [===>..........................] - ETA: 3:48 - loss: 0.1725 - accuracy: 0.9375
+ 9/55 [===>..........................] - ETA: 3:45 - loss: 0.1632 - accuracy: 0.9410
+10/55 [====>.........................] - ETA: 3:46 - loss: 0.1818 - accuracy: 0.9391
+11/55 [=====>........................] - ETA: 3:39 - loss: 0.1757 - accuracy: 0.9403
+12/55 [=====>........................] - ETA: 3:33 - loss: 0.1713 - accuracy: 0.9401
+13/55 [======>.......................] - ETA: 3:28 - loss: 0.1702 - accuracy: 0.9423
+14/55 [======>.......................] - ETA: 3:22 - loss: 0.1725 - accuracy: 0.9420
+15/55 [=======>......................] - ETA: 3:16 - loss: 0.1768 - accuracy: 0.9396
+16/55 [=======>......................] - ETA: 3:10 - loss: 0.1751 - accuracy: 0.9395
+17/55 [========>.....................] - ETA: 3:05 - loss: 0.1768 - accuracy: 0.9403
+18/55 [========>.....................] - ETA: 3:00 - loss: 0.1791 - accuracy: 0.9401
+19/55 [=========>....................] - ETA: 2:54 - loss: 0.1822 - accuracy: 0.9391
+20/55 [=========>....................] - ETA: 2:49 - loss: 0.1834 - accuracy: 0.9383
+21/55 [==========>...................] - ETA: 2:44 - loss: 0.1816 - accuracy: 0.9382
+22/55 [===========>..................] - ETA: 2:39 - loss: 0.1774 - accuracy: 0.9403
+23/55 [===========>..................] - ETA: 2:34 - loss: 0.1767 - accuracy: 0.9402
+24/55 [============>.................] - ETA: 2:29 - loss: 0.1733 - accuracy: 0.9414
+25/55 [============>.................] - ETA: 2:24 - loss: 0.1735 - accuracy: 0.9413
+26/55 [=============>................] - ETA: 2:20 - loss: 0.1707 - accuracy: 0.9417
+27/55 [=============>................] - ETA: 2:15 - loss: 0.1742 - accuracy: 0.9398
+28/55 [==============>...............] - ETA: 2:10 - loss: 0.1766 - accuracy: 0.9392
+29/55 [==============>...............] - ETA: 2:05 - loss: 0.1752 - accuracy: 0.9386
+30/55 [===============>..............] - ETA: 2:00 - loss: 0.1751 - accuracy: 0.9375
+31/55 [===============>..............] - ETA: 1:55 - loss: 0.1744 - accuracy: 0.9370
+32/55 [================>.............] - ETA: 1:50 - loss: 0.1715 - accuracy: 0.9385
+33/55 [=================>............] - ETA: 1:45 - loss: 0.1743 - accuracy: 0.9356
+34/55 [=================>............] - ETA: 1:40 - loss: 0.1730 - accuracy: 0.9357
+35/55 [==================>...........] - ETA: 1:35 - loss: 0.1716 - accuracy: 0.9357
+36/55 [==================>...........] - ETA: 1:30 - loss: 0.1700 - accuracy: 0.9362
+37/55 [===================>..........] - ETA: 1:26 - loss: 0.1694 - accuracy: 0.9367
+38/55 [===================>..........] - ETA: 1:21 - loss: 0.1720 - accuracy: 0.9363
+39/55 [====================>.........] - ETA: 1:16 - loss: 0.1696 - accuracy: 0.9379
+40/55 [====================>.........] - ETA: 1:11 - loss: 0.1692 - accuracy: 0.9379
+41/55 [=====================>........] - ETA: 1:06 - loss: 0.1690 - accuracy: 0.9375
+42/55 [=====================>........] - ETA: 1:01 - loss: 0.1726 - accuracy: 0.9368
+43/55 [======================>.......] - ETA: 57s - loss: 0.1732 - accuracy: 0.9364 
+44/55 [=======================>......] - ETA: 52s - loss: 0.1721 - accuracy: 0.9368
+45/55 [=======================>......] - ETA: 47s - loss: 0.1699 - accuracy: 0.9378
+46/55 [========================>.....] - ETA: 42s - loss: 0.1705 - accuracy: 0.9375
+47/55 [========================>.....] - ETA: 37s - loss: 0.1678 - accuracy: 0.9385
+48/55 [=========================>....] - ETA: 33s - loss: 0.1657 - accuracy: 0.9398
+49/55 [=========================>....] - ETA: 28s - loss: 0.1660 - accuracy: 0.9394
+50/55 [==========================>...] - ETA: 23s - loss: 0.1660 - accuracy: 0.9394
+51/55 [==========================>...] - ETA: 18s - loss: 0.1660 - accuracy: 0.9396
+52/55 [===========================>..] - ETA: 14s - loss: 0.1653 - accuracy: 0.9399
+53/55 [===========================>..] - ETA: 9s - loss: 0.1645 - accuracy: 0.9404 
+54/55 [============================>.] - ETA: 4s - loss: 0.1630 - accuracy: 0.9410
+55/55 [==============================] - ETA: 0s - loss: 0.1620 - accuracy: 0.9415
+55/55 [==============================] - 259s 5s/step - loss: 0.1620 - accuracy: 0.9415 - val_loss: 0.6763 - val_accuracy: 0.6667
+Epoch 3/5
+
+ 1/55 [..............................] - ETA: 4:14 - loss: 0.1340 - accuracy: 0.9375
+ 2/55 [>.............................] - ETA: 4:11 - loss: 0.1728 - accuracy: 0.9375
+ 3/55 [>.............................] - ETA: 4:06 - loss: 0.1399 - accuracy: 0.9479
+ 4/55 [=>............................] - ETA: 3:59 - loss: 0.1275 - accuracy: 0.9453
+ 5/55 [=>............................] - ETA: 3:53 - loss: 0.1098 - accuracy: 0.9531
+ 6/55 [==>...........................] - ETA: 3:49 - loss: 0.1145 - accuracy: 0.9531
+ 7/55 [==>...........................] - ETA: 3:43 - loss: 0.1273 - accuracy: 0.9487
+ 8/55 [===>..........................] - ETA: 3:40 - loss: 0.1229 - accuracy: 0.9531
+ 9/55 [===>..........................] - ETA: 3:36 - loss: 0.1135 - accuracy: 0.9566
+10/55 [====>.........................] - ETA: 3:30 - loss: 0.1243 - accuracy: 0.9578
+11/55 [=====>........................] - ETA: 3:25 - loss: 0.1171 - accuracy: 0.9616
+12/55 [=====>........................] - ETA: 3:21 - loss: 0.1138 - accuracy: 0.9622
+13/55 [======>.......................] - ETA: 3:16 - loss: 0.1142 - accuracy: 0.9627
+14/55 [======>.......................] - ETA: 3:12 - loss: 0.1215 - accuracy: 0.9598
+15/55 [=======>......................] - ETA: 3:07 - loss: 0.1257 - accuracy: 0.9573
+16/55 [=======>......................] - ETA: 3:02 - loss: 0.1250 - accuracy: 0.9580
+17/55 [========>.....................] - ETA: 2:57 - loss: 0.1261 - accuracy: 0.9577
+18/55 [========>.....................] - ETA: 2:52 - loss: 0.1268 - accuracy: 0.9575
+19/55 [=========>....................] - ETA: 2:48 - loss: 0.1270 - accuracy: 0.9581
+20/55 [=========>....................] - ETA: 2:43 - loss: 0.1281 - accuracy: 0.9555
+21/55 [==========>...................] - ETA: 2:39 - loss: 0.1265 - accuracy: 0.9561
+22/55 [===========>..................] - ETA: 2:34 - loss: 0.1225 - accuracy: 0.9581
+23/55 [===========>..................] - ETA: 2:29 - loss: 0.1214 - accuracy: 0.9579
+24/55 [============>.................] - ETA: 2:24 - loss: 0.1180 - accuracy: 0.9596
+25/55 [============>.................] - ETA: 2:20 - loss: 0.1188 - accuracy: 0.9600
+26/55 [=============>................] - ETA: 2:15 - loss: 0.1167 - accuracy: 0.9609
+27/55 [=============>................] - ETA: 2:10 - loss: 0.1198 - accuracy: 0.9589
+28/55 [==============>...............] - ETA: 2:05 - loss: 0.1213 - accuracy: 0.9576
+29/55 [==============>...............] - ETA: 2:01 - loss: 0.1202 - accuracy: 0.9574
+30/55 [===============>..............] - ETA: 1:56 - loss: 0.1210 - accuracy: 0.9557
+31/55 [===============>..............] - ETA: 1:51 - loss: 0.1213 - accuracy: 0.9561
+32/55 [================>.............] - ETA: 1:47 - loss: 0.1189 - accuracy: 0.9570
+33/55 [=================>............] - ETA: 1:42 - loss: 0.1210 - accuracy: 0.9555
+34/55 [=================>............] - ETA: 1:37 - loss: 0.1207 - accuracy: 0.9559
+35/55 [==================>...........] - ETA: 1:32 - loss: 0.1199 - accuracy: 0.9563
+36/55 [==================>...........] - ETA: 1:28 - loss: 0.1184 - accuracy: 0.9566
+37/55 [===================>..........] - ETA: 1:23 - loss: 0.1172 - accuracy: 0.9569
+38/55 [===================>..........] - ETA: 1:18 - loss: 0.1171 - accuracy: 0.9568
+39/55 [====================>.........] - ETA: 1:14 - loss: 0.1152 - accuracy: 0.9579
+40/55 [====================>.........] - ETA: 1:09 - loss: 0.1148 - accuracy: 0.9578
+41/55 [=====================>........] - ETA: 1:05 - loss: 0.1130 - accuracy: 0.9588
+42/55 [=====================>........] - ETA: 1:00 - loss: 0.1156 - accuracy: 0.9580
+43/55 [======================>.......] - ETA: 55s - loss: 0.1154 - accuracy: 0.9578 
+44/55 [=======================>......] - ETA: 51s - loss: 0.1155 - accuracy: 0.9577
+45/55 [=======================>......] - ETA: 46s - loss: 0.1134 - accuracy: 0.9587
+46/55 [========================>.....] - ETA: 41s - loss: 0.1136 - accuracy: 0.9579
+47/55 [========================>.....] - ETA: 37s - loss: 0.1115 - accuracy: 0.9588
+48/55 [=========================>....] - ETA: 32s - loss: 0.1099 - accuracy: 0.9596
+49/55 [=========================>....] - ETA: 27s - loss: 0.1111 - accuracy: 0.9592
+50/55 [==========================>...] - ETA: 23s - loss: 0.1101 - accuracy: 0.9594
+51/55 [==========================>...] - ETA: 18s - loss: 0.1098 - accuracy: 0.9599
+52/55 [===========================>..] - ETA: 13s - loss: 0.1092 - accuracy: 0.9597
+53/55 [===========================>..] - ETA: 9s - loss: 0.1085 - accuracy: 0.9602 
+54/55 [============================>.] - ETA: 4s - loss: 0.1080 - accuracy: 0.9604
+55/55 [==============================] - ETA: 0s - loss: 0.1071 - accuracy: 0.9607
+55/55 [==============================] - 254s 5s/step - loss: 0.1071 - accuracy: 0.9607 - val_loss: 0.7789 - val_accuracy: 0.6667
+Epoch 4/5
+
+ 1/55 [..............................] - ETA: 4:06 - loss: 0.0579 - accuracy: 0.9688
+ 2/55 [>.............................] - ETA: 4:03 - loss: 0.1013 - accuracy: 0.9609
+ 3/55 [>.............................] - ETA: 4:16 - loss: 0.0847 - accuracy: 0.9688
+ 4/55 [=>............................] - ETA: 4:05 - loss: 0.0740 - accuracy: 0.9727
+ 5/55 [=>............................] - ETA: 3:57 - loss: 0.0674 - accuracy: 0.9750
+ 6/55 [==>...........................] - ETA: 3:51 - loss: 0.0726 - accuracy: 0.9766
+ 7/55 [==>...........................] - ETA: 3:46 - loss: 0.0804 - accuracy: 0.9732
+ 8/55 [===>..........................] - ETA: 3:40 - loss: 0.0801 - accuracy: 0.9746
+ 9/55 [===>..........................] - ETA: 3:35 - loss: 0.0718 - accuracy: 0.9774
+10/55 [====>.........................] - ETA: 3:30 - loss: 0.0958 - accuracy: 0.9719
+11/55 [=====>........................] - ETA: 3:25 - loss: 0.0925 - accuracy: 0.9716
+12/55 [=====>........................] - ETA: 3:20 - loss: 0.0874 - accuracy: 0.9740
+13/55 [======>.......................] - ETA: 3:15 - loss: 0.0915 - accuracy: 0.9748
+14/55 [======>.......................] - ETA: 3:10 - loss: 0.0938 - accuracy: 0.9743
+15/55 [=======>......................] - ETA: 3:06 - loss: 0.0919 - accuracy: 0.9740
+16/55 [=======>......................] - ETA: 3:01 - loss: 0.0913 - accuracy: 0.9746
+17/55 [========>.....................] - ETA: 2:56 - loss: 0.0917 - accuracy: 0.9752
+18/55 [========>.....................] - ETA: 2:51 - loss: 0.0915 - accuracy: 0.9748
+19/55 [=========>....................] - ETA: 2:46 - loss: 0.0898 - accuracy: 0.9753
+20/55 [=========>....................] - ETA: 2:42 - loss: 0.0883 - accuracy: 0.9758
+21/55 [==========>...................] - ETA: 2:37 - loss: 0.0860 - accuracy: 0.9769
+22/55 [===========>..................] - ETA: 2:32 - loss: 0.0827 - accuracy: 0.9780
+23/55 [===========>..................] - ETA: 2:28 - loss: 0.0814 - accuracy: 0.9783
+24/55 [============>.................] - ETA: 2:23 - loss: 0.0784 - accuracy: 0.9792
+25/55 [============>.................] - ETA: 2:19 - loss: 0.0795 - accuracy: 0.9787
+26/55 [=============>................] - ETA: 2:14 - loss: 0.0779 - accuracy: 0.9790
+27/55 [=============>................] - ETA: 2:09 - loss: 0.0802 - accuracy: 0.9774
+28/55 [==============>...............] - ETA: 2:04 - loss: 0.0797 - accuracy: 0.9771
+29/55 [==============>...............] - ETA: 2:00 - loss: 0.0781 - accuracy: 0.9774
+30/55 [===============>..............] - ETA: 1:55 - loss: 0.0767 - accuracy: 0.9781
+31/55 [===============>..............] - ETA: 1:50 - loss: 0.0774 - accuracy: 0.9768
+32/55 [================>.............] - ETA: 1:46 - loss: 0.0766 - accuracy: 0.9771
+33/55 [=================>............] - ETA: 1:41 - loss: 0.0778 - accuracy: 0.9763
+34/55 [=================>............] - ETA: 1:37 - loss: 0.0770 - accuracy: 0.9770
+35/55 [==================>...........] - ETA: 1:32 - loss: 0.0758 - accuracy: 0.9772
+36/55 [==================>...........] - ETA: 1:27 - loss: 0.0745 - accuracy: 0.9779
+37/55 [===================>..........] - ETA: 1:23 - loss: 0.0730 - accuracy: 0.9785
+38/55 [===================>..........] - ETA: 1:18 - loss: 0.0754 - accuracy: 0.9778
+39/55 [====================>.........] - ETA: 1:13 - loss: 0.0744 - accuracy: 0.9780
+40/55 [====================>.........] - ETA: 1:09 - loss: 0.0738 - accuracy: 0.9781
+41/55 [=====================>........] - ETA: 1:04 - loss: 0.0724 - accuracy: 0.9787
+42/55 [=====================>........] - ETA: 59s - loss: 0.0722 - accuracy: 0.9784 
+43/55 [======================>.......] - ETA: 55s - loss: 0.0716 - accuracy: 0.9786
+44/55 [=======================>......] - ETA: 50s - loss: 0.0710 - accuracy: 0.9783
+45/55 [=======================>......] - ETA: 46s - loss: 0.0695 - accuracy: 0.9788
+46/55 [========================>.....] - ETA: 41s - loss: 0.0690 - accuracy: 0.9789
+47/55 [========================>.....] - ETA: 36s - loss: 0.0680 - accuracy: 0.9791
+48/55 [=========================>....] - ETA: 32s - loss: 0.0669 - accuracy: 0.9795
+49/55 [=========================>....] - ETA: 27s - loss: 0.0670 - accuracy: 0.9790
+50/55 [==========================>...] - ETA: 22s - loss: 0.0665 - accuracy: 0.9791
+51/55 [==========================>...] - ETA: 18s - loss: 0.0662 - accuracy: 0.9789
+52/55 [===========================>..] - ETA: 13s - loss: 0.0658 - accuracy: 0.9790
+53/55 [===========================>..] - ETA: 9s - loss: 0.0651 - accuracy: 0.9791 
+54/55 [============================>.] - ETA: 4s - loss: 0.0652 - accuracy: 0.9792
+55/55 [==============================] - ETA: 0s - loss: 0.0646 - accuracy: 0.9794
+55/55 [==============================] - 251s 5s/step - loss: 0.0646 - accuracy: 0.9794 - val_loss: 1.2583 - val_accuracy: 0.6667
+Epoch 5/5
+
+ 1/55 [..............................] - ETA: 4:17 - loss: 0.0126 - accuracy: 1.0000
+ 2/55 [>.............................] - ETA: 4:03 - loss: 0.0491 - accuracy: 0.9844
+ 3/55 [>.............................] - ETA: 3:57 - loss: 0.0416 - accuracy: 0.9896
+ 4/55 [=>............................] - ETA: 3:53 - loss: 0.0406 - accuracy: 0.9883
+ 5/55 [=>............................] - ETA: 3:49 - loss: 0.0367 - accuracy: 0.9875
+ 6/55 [==>...........................] - ETA: 3:44 - loss: 0.0368 - accuracy: 0.9870
+ 7/55 [==>...........................] - ETA: 3:40 - loss: 0.0354 - accuracy: 0.9866
+ 8/55 [===>..........................] - ETA: 3:36 - loss: 0.0361 - accuracy: 0.9863
+ 9/55 [===>..........................] - ETA: 3:31 - loss: 0.0329 - accuracy: 0.9878
+10/55 [====>.........................] - ETA: 3:26 - loss: 0.0514 - accuracy: 0.9859
+11/55 [=====>........................] - ETA: 3:22 - loss: 0.0498 - accuracy: 0.9858
+12/55 [=====>........................] - ETA: 3:17 - loss: 0.0485 - accuracy: 0.9857
+13/55 [======>.......................] - ETA: 3:13 - loss: 0.0587 - accuracy: 0.9844
+14/55 [======>.......................] - ETA: 3:09 - loss: 0.0587 - accuracy: 0.9844
+15/55 [=======>......................] - ETA: 3:04 - loss: 0.0555 - accuracy: 0.9854
+16/55 [=======>......................] - ETA: 2:59 - loss: 0.0537 - accuracy: 0.9863
+17/55 [========>.....................] - ETA: 2:55 - loss: 0.0559 - accuracy: 0.9862
+18/55 [========>.....................] - ETA: 2:51 - loss: 0.0549 - accuracy: 0.9861
+19/55 [=========>....................] - ETA: 2:46 - loss: 0.0543 - accuracy: 0.9868
+20/55 [=========>....................] - ETA: 2:42 - loss: 0.0544 - accuracy: 0.9867
+21/55 [==========>...................] - ETA: 2:38 - loss: 0.0530 - accuracy: 0.9874
+22/55 [===========>..................] - ETA: 2:33 - loss: 0.0509 - accuracy: 0.9879
+23/55 [===========>..................] - ETA: 2:29 - loss: 0.0492 - accuracy: 0.9885
+24/55 [============>.................] - ETA: 2:24 - loss: 0.0473 - accuracy: 0.9889
+25/55 [============>.................] - ETA: 2:19 - loss: 0.0471 - accuracy: 0.9887
+26/55 [=============>................] - ETA: 2:14 - loss: 0.0457 - accuracy: 0.9892
+27/55 [=============>................] - ETA: 2:10 - loss: 0.0458 - accuracy: 0.9890
+28/55 [==============>...............] - ETA: 2:05 - loss: 0.0461 - accuracy: 0.9888
+29/55 [==============>...............] - ETA: 2:00 - loss: 0.0452 - accuracy: 0.9892
+30/55 [===============>..............] - ETA: 1:55 - loss: 0.0456 - accuracy: 0.9891
+31/55 [===============>..............] - ETA: 1:51 - loss: 0.0462 - accuracy: 0.9884
+32/55 [================>.............] - ETA: 1:46 - loss: 0.0450 - accuracy: 0.9888
+33/55 [=================>............] - ETA: 1:41 - loss: 0.0452 - accuracy: 0.9886
+34/55 [=================>............] - ETA: 1:37 - loss: 0.0447 - accuracy: 0.9890
+35/55 [==================>...........] - ETA: 1:32 - loss: 0.0440 - accuracy: 0.9893
+36/55 [==================>...........] - ETA: 1:27 - loss: 0.0430 - accuracy: 0.9896
+37/55 [===================>..........] - ETA: 1:23 - loss: 0.0419 - accuracy: 0.9899
+38/55 [===================>..........] - ETA: 1:18 - loss: 0.0413 - accuracy: 0.9901
+39/55 [====================>.........] - ETA: 1:13 - loss: 0.0412 - accuracy: 0.9900
+40/55 [====================>.........] - ETA: 1:09 - loss: 0.0405 - accuracy: 0.9902
+41/55 [=====================>........] - ETA: 1:04 - loss: 0.0399 - accuracy: 0.9901
+42/55 [=====================>........] - ETA: 59s - loss: 0.0406 - accuracy: 0.9896 
+43/55 [======================>.......] - ETA: 55s - loss: 0.0418 - accuracy: 0.9891
+44/55 [=======================>......] - ETA: 50s - loss: 0.0410 - accuracy: 0.9893
+45/55 [=======================>......] - ETA: 46s - loss: 0.0402 - accuracy: 0.9896
+46/55 [========================>.....] - ETA: 41s - loss: 0.0395 - accuracy: 0.9898
+47/55 [========================>.....] - ETA: 36s - loss: 0.0387 - accuracy: 0.9900
+48/55 [=========================>....] - ETA: 32s - loss: 0.0383 - accuracy: 0.9902
+49/55 [=========================>....] - ETA: 27s - loss: 0.0394 - accuracy: 0.9892
+50/55 [==========================>...] - ETA: 23s - loss: 0.0387 - accuracy: 0.9894
+51/55 [==========================>...] - ETA: 18s - loss: 0.0382 - accuracy: 0.9896
+52/55 [===========================>..] - ETA: 13s - loss: 0.0384 - accuracy: 0.9895
+53/55 [===========================>..] - ETA: 9s - loss: 0.0382 - accuracy: 0.9894 
+54/55 [============================>.] - ETA: 4s - loss: 0.0400 - accuracy: 0.9890
+55/55 [==============================] - ETA: 0s - loss: 0.0397 - accuracy: 0.9891
+55/55 [==============================] - 252s 5s/step - loss: 0.0397 - accuracy: 0.9891 - val_loss: 1.5460 - val_accuracy: 0.6667
+
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(460).jpg Bu görsel: PNEUMONIA  99.89 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(461).jpg Bu görsel: COVID19  99.84 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(462).jpg Bu görsel: COVID19  99.97 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(463).jpg Bu görsel: TURBERCULOSIS  93.06 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(464).jpg Bu görsel: COVID19  91.44 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(465).jpg Bu görsel: COVID19  50.31 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(466).jpg Bu görsel: TURBERCULOSIS  56.68 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(467).jpg Bu görsel: COVID19  99.95 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(468).jpg Bu görsel: COVID19  91.43 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(469).jpg Bu görsel: COVID19  98.48 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(470).jpg Bu görsel: COVID19  99.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(471).jpg Bu görsel: COVID19  94.34 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(472).jpg Bu görsel: COVID19  99.69 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(473).jpg Bu görsel: TURBERCULOSIS  92.14 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(474).jpg Bu görsel: COVID19  99.54 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(475).jpg Bu görsel: TURBERCULOSIS  99.92 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(476).jpg Bu görsel: COVID19  87.31 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(477).jpg Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(478).jpg Bu görsel: TURBERCULOSIS  99.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(479).jpg Bu görsel: COVID19  98.02 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(480).jpg Bu görsel: COVID19  99.98 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(481).jpg Bu görsel: COVID19  99.98 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(482).jpg Bu görsel: TURBERCULOSIS  61.08 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(483).jpg Bu görsel: TURBERCULOSIS  99.43 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(484).jpg Bu görsel: COVID19  99.24 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(485).jpg Bu görsel: COVID19  62.09 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(486).jpg Bu görsel: COVID19  88.38 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(487).jpg Bu görsel: COVID19  99.76 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(488).jpg Bu görsel: TURBERCULOSIS  90.91 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(489).jpg Bu görsel: COVID19  82.55 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(490).jpg Bu görsel: TURBERCULOSIS  99.89 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(491).jpg Bu görsel: COVID19  99.80 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(492).jpg Bu görsel: COVID19  98.31 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(493).jpg Bu görsel: COVID19  99.64 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(494).jpg Bu görsel: COVID19  99.94 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(495).jpg Bu görsel: COVID19  92.36 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(496).jpg Bu görsel: TURBERCULOSIS  69.81 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(497).jpg Bu görsel: COVID19  99.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(498).jpg Bu görsel: TURBERCULOSIS  97.37 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(499).jpg Bu görsel: TURBERCULOSIS  99.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(500).jpg Bu görsel: TURBERCULOSIS  90.13 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(501).jpg Bu görsel: COVID19  93.08 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(502).jpg Bu görsel: COVID19  97.03 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(503).jpg Bu görsel: COVID19  99.91 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(504).jpg Bu görsel: COVID19  88.08 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(505).jpg Bu görsel: PNEUMONIA  99.33 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(506).jpg Bu görsel: COVID19  62.89 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(507).jpg Bu görsel: PNEUMONIA  98.61 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(508).jpg Bu görsel: TURBERCULOSIS  98.58 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(509).jpg Bu görsel: TURBERCULOSIS  91.95 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(510).jpg Bu görsel: PNEUMONIA  69.34 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(511).jpg Bu görsel: TURBERCULOSIS  99.92 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(512).jpg Bu görsel: COVID19  99.77 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(513).jpg Bu görsel: PNEUMONIA  62.79 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(514).jpg Bu görsel: COVID19  61.21 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(515).jpg Bu görsel: COVID19  92.94 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(516).jpg Bu görsel: COVID19  93.54 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(517).jpg Bu görsel: COVID19  99.75 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(518).jpg Bu görsel: COVID19  77.21 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(519).jpg Bu görsel: COVID19  64.98 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(520).jpg Bu görsel: COVID19  99.82 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(521).jpg Bu görsel: PNEUMONIA  81.29 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(522).jpg Bu görsel: PNEUMONIA  98.63 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(523).jpg Bu görsel: COVID19  99.95 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(524).jpg Bu görsel: COVID19  99.54 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(525).jpg Bu görsel: COVID19  97.56 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(526).jpg Bu görsel: TURBERCULOSIS  98.51 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(527).jpg Bu görsel: TURBERCULOSIS  53.09 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(528).jpg Bu görsel: TURBERCULOSIS  98.70 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(529).jpg Bu görsel: COVID19  99.81 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(530).jpg Bu görsel: COVID19  99.43 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(531).jpg Bu görsel: COVID19  89.44 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(532).jpg Bu görsel: COVID19  87.34 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(533).jpg Bu görsel: PNEUMONIA  98.69 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(534).jpg Bu görsel: COVID19  95.90 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(535).jpg Bu görsel: COVID19  99.08 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(536).jpg Bu görsel: COVID19  99.50 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(537).jpg Bu görsel: COVID19  60.43 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(538).jpg Bu görsel: COVID19  90.98 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(539).jpg Bu görsel: COVID19  99.90 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(540).jpg Bu görsel: COVID19  98.87 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(541).jpg Bu görsel: TURBERCULOSIS  97.72 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(542).jpg Bu görsel: TURBERCULOSIS  75.91 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(543).jpg Bu görsel: TURBERCULOSIS  86.59 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(544).jpg Bu görsel: TURBERCULOSIS  76.19 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(545).jpg Bu görsel: COVID19  99.92 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(546).jpg Bu görsel: PNEUMONIA  68.34 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(547).jpg Bu görsel: COVID19  88.53 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(548).jpg Bu görsel: COVID19  98.46 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(549).jpg Bu görsel: COVID19  74.63 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(550).jpg Bu görsel: COVID19  99.74 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(551).jpg Bu görsel: TURBERCULOSIS  89.19 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(552).jpg Bu görsel: COVID19  98.03 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(553).jpg Bu görsel: COVID19  99.97 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(554).jpg Bu görsel: TURBERCULOSIS  98.90 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(555).jpg Bu görsel: COVID19  98.03 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(556).jpg Bu görsel: TURBERCULOSIS  68.02 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(557).jpg Bu görsel: COVID19  99.58 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(558).jpg Bu görsel: COVID19  99.77 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(559).jpg Bu görsel: TURBERCULOSIS  98.44 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(560).jpg Bu görsel: COVID19  99.96 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(561).jpg Bu görsel: COVID19  99.18 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(562).jpg Bu görsel: COVID19  97.38 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(563).jpg Bu görsel: TURBERCULOSIS  99.80 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(564).jpg Bu görsel: TURBERCULOSIS  98.22 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(565).jpg Bu görsel: COVID19  81.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (1).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (10).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (100).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (101).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (102).jpeg Bu görsel: PNEUMONIA  99.58 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (103).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (104).jpeg Bu görsel: PNEUMONIA  99.88 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (105).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (106).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (107).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (108).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (109).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (11).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (110).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (111).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (112).jpeg Bu görsel: PNEUMONIA  99.83 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (113).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (114).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (115).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (116).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (117).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (118).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (119).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (12).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (120).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (121).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (122).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (123).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (124).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (125).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (126).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (127).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (128).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (129).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (13).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (130).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (131).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (132).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (133).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (134).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (135).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (136).jpeg Bu görsel: PNEUMONIA  99.70 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (137).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (138).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (139).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (14).jpeg Bu görsel: PNEUMONIA  96.65 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (140).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (141).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (142).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (143).jpeg Bu görsel: PNEUMONIA  99.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (144).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (145).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (146).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (147).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (148).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (149).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (15).jpeg Bu görsel: PNEUMONIA  87.69 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (150).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (151).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (152).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (153).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (154).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (155).jpeg Bu görsel: PNEUMONIA  99.96 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (156).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (157).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (158).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (159).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (16).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (160).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (161).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (162).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (163).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (164).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (165).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (166).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (167).jpeg Bu görsel: PNEUMONIA  99.22 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (168).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (169).jpeg Bu görsel: PNEUMONIA  99.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (17).jpeg Bu görsel: COVID19  99.09 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (170).jpeg Bu görsel: PNEUMONIA  99.93 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (171).jpeg Bu görsel: PNEUMONIA  53.91 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (172).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (173).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (174).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (175).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (176).jpeg Bu görsel: PNEUMONIA  63.78 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (177).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (178).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (179).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (18).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (180).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (181).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (182).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (183).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (184).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (185).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (186).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (187).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (188).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (189).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (19).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (190).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (191).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (192).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (193).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (194).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (195).jpeg Bu görsel: PNEUMONIA  60.61 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (196).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (197).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (198).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (199).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (2).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (20).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (200).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (201).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (202).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (203).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (204).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (205).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (206).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (207).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (208).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (209).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (21).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (210).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (211).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (212).jpeg Bu görsel: PNEUMONIA  99.70 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (213).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (214).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (215).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (216).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (217).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (218).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (219).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (22).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (220).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (221).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (222).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (223).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (224).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (225).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (226).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (227).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (228).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (229).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (23).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (230).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (231).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (232).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (233).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (234).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (235).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (236).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (237).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (238).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (239).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (24).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (240).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (241).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (242).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (243).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (244).jpeg Bu görsel: PNEUMONIA  99.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (245).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (246).jpeg Bu görsel: PNEUMONIA  99.97 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (247).jpeg Bu görsel: PNEUMONIA  99.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (248).jpeg Bu görsel: PNEUMONIA  99.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (249).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (25).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (250).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (251).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (252).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (253).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (254).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (255).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (256).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (257).jpeg Bu görsel: PNEUMONIA  99.98 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (258).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (259).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (26).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (260).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (261).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (262).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (263).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (264).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (265).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (266).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (267).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (268).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (269).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (27).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (270).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (271).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (272).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (273).jpeg Bu görsel: PNEUMONIA  99.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (274).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (275).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (276).jpeg Bu görsel: PNEUMONIA  92.83 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (277).jpeg Bu görsel: PNEUMONIA  99.98 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (278).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (279).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (28).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (280).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (281).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (282).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (283).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (284).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (285).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (286).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (287).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (288).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (289).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (29).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (290).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (291).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (292).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (293).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (294).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (295).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (296).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (297).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (298).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (299).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (3).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (30).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (300).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (301).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (302).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (303).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (304).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (305).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (306).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (307).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (308).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (309).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (31).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (310).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (311).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (312).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (313).jpeg Bu görsel: PNEUMONIA  98.83 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (314).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (315).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (316).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (317).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (318).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (319).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (32).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (320).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (321).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (322).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (323).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (324).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (325).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (326).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (327).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (328).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (329).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (33).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (330).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (331).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (332).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (333).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (334).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (335).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (336).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (337).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (338).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (339).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (34).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (340).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (341).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (342).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (343).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (344).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (345).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (346).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (347).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (348).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (349).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (35).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (350).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (351).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (352).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (353).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (354).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (355).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (356).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (357).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (358).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (359).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (36).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (360).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (361).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (362).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (363).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (364).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (365).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (366).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (367).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (368).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (369).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (37).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (370).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (371).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (372).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (373).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (374).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (375).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (376).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (377).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (378).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (379).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (38).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (380).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (381).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (382).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (383).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (384).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (385).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (386).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (387).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (388).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (389).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (39).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (390).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (4).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (40).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (41).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (42).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (43).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (44).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (45).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (46).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (47).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (48).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (49).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (5).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (50).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (51).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (52).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (53).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (54).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (55).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (56).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (57).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (58).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (59).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (6).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (60).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (61).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (62).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (63).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (64).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (65).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (66).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (67).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (68).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (69).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (7).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (70).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (71).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (72).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (73).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (74).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (75).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (76).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (77).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (78).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (79).jpeg Bu görsel: TURBERCULOSIS  95.89 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (8).jpeg Bu görsel: PNEUMONIA  99.69 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (80).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (81).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (82).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (83).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (84).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (85).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (86).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (87).jpeg Bu görsel: TURBERCULOSIS  86.05 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (88).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (89).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (9).jpeg Bu görsel: PNEUMONIA  99.98 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (90).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (91).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (92).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (93).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (94).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (95).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (96).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (97).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (98).jpeg Bu görsel: PNEUMONIA  99.33 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (99).jpeg Bu görsel: PNEUMONIA  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (1).png Bu görsel: TURBERCULOSIS  99.97 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (10).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (11).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (12).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (13).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (14).png Bu görsel: TURBERCULOSIS  99.93 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (15).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (16).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (17).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (18).png Bu görsel: COVID19  66.67 . 
+
+test\tberc (19).png Bu görsel: TURBERCULOSIS  82.92 . 
+test\tberc (2).png Bu görsel: TURBERCULOSIS  100.00 . 
+test\tberc (20).png Bu görsel: TURBERCULOSIS  99.76 . 
+test\tberc (21).png Bu görsel: TURBERCULOSIS  100.00 . 
+test\tberc (22).png Bu görsel: TURBERCULOSIS  100.00 . 
+test\tberc (23).png Bu görsel: TURBERCULOSIS  100.00 . 
+test\tberc (24).png Bu görsel: TURBERCULOSIS  100.00 . 
+test\tberc (25).png Bu görsel: TURBERCULOSIS  100.00 . 
+test\tberc (26).png Bu görsel: TURBERCULOSIS  100.00 . 
+test\tberc (27).png Bu görsel: TURBERCULOSIS  99.99 .
+
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (28).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (29).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (3).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (30).png Bu görsel: PNEUMONIA  99.90 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (31).png Bu görsel: TURBERCULOSIS  99.97 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (32).png Bu görsel: TURBERCULOSIS  99.90 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (33).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (34).png Bu görsel: TURBERCULOSIS  93.67 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (35).png Bu görsel: TURBERCULOSIS  93.78 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (36).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (37).png Bu görsel: TURBERCULOSIS  99.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (38).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (39).png Bu görsel: TURBERCULOSIS  99.99 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (4).png Bu görsel: TURBERCULOSIS  99.98 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (40).png Bu görsel: TURBERCULOSIS  99.85 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (41).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (5).png Bu görsel: TURBERCULOSIS  100.00 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (6).png Bu görsel: PNEUMONIA  65.91 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (7).png Bu görsel: TURBERCULOSIS  99.86 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (8).png Bu görsel: TURBERCULOSIS  99.89 .
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (9).png Bu görsel: TURBERCULOSIS  99.91 .

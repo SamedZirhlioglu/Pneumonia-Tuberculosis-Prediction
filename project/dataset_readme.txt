@@ -1,0 +1,1 @@
+NORMAL & COVID19 sınıfları kaldırılacak

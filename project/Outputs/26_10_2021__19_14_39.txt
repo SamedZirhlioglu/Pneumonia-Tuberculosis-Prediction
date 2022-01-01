@@ -1,0 +1,1148 @@
+Training dataset import islemi basladi.
+Found 4985 files belonging to 3 classes.
+Using 3490 files for training.
+Training dataset import islemi bitti. (0.21 saniye)
+Validation dataset import islemi basladi.
+Found 30 files belonging to 3 classes.
+Using 9 files for validation.
+Validation dataset import islemi bitti. (0.01 saniye)
+Test dataset import islemi basladi.
+Test dataset import islemi bitti. (0.00 saniye)
+['COVID19', 'PNEUMONIA', 'TURBERCULOSIS']
+Model olusturma islemi basladi.
+Model olusturma islemi bitti. (0.11 saniye)
+Model derleme(compile) islemi basladi.
+Model derleme(compile) islemi bitti. (0.00 saniye)
+Model egitme(fit) islemi basladi.
+
+ 1/55 [..............................] - ETA: 4:47 - loss: 1.0599 - accuracy: 0.5625
+ 2/55 [>.............................] - ETA: 4:04 - loss: 3.8122 - accuracy: 0.6719
+ 3/55 [>.............................] - ETA: 4:01 - loss: 3.1897 - accuracy: 0.6875
+ 4/55 [=>............................] - ETA: 3:55 - loss: 2.5853 - accuracy: 0.7266
+ 5/55 [=>............................] - ETA: 3:51 - loss: 2.2637 - accuracy: 0.7344
+ 6/55 [==>...........................] - ETA: 3:46 - loss: 2.0595 - accuracy: 0.7422
+ 7/55 [==>...........................] - ETA: 3:41 - loss: 1.9117 - accuracy: 0.7656
+ 8/55 [===>..........................] - ETA: 3:36 - loss: 1.7961 - accuracy: 0.7812
+ 9/55 [===>..........................] - ETA: 3:31 - loss: 1.6989 - accuracy: 0.7830
+10/55 [====>.........................] - ETA: 3:26 - loss: 1.6157 - accuracy: 0.7734
+11/55 [=====>........................] - ETA: 3:22 - loss: 1.5332 - accuracy: 0.7685
+12/55 [=====>........................] - ETA: 3:17 - loss: 1.4618 - accuracy: 0.7656
+13/55 [======>.......................] - ETA: 3:12 - loss: 1.4001 - accuracy: 0.7656
+14/55 [======>.......................] - ETA: 3:08 - loss: 1.3384 - accuracy: 0.7667
+15/55 [=======>......................] - ETA: 3:03 - loss: 1.2811 - accuracy: 0.7708
+16/55 [=======>......................] - ETA: 2:59 - loss: 1.2353 - accuracy: 0.7715
+17/55 [========>.....................] - ETA: 2:54 - loss: 1.1874 - accuracy: 0.7739
+18/55 [========>.....................] - ETA: 2:50 - loss: 1.1427 - accuracy: 0.7769
+19/55 [=========>....................] - ETA: 2:45 - loss: 1.1040 - accuracy: 0.7796
+20/55 [=========>....................] - ETA: 2:40 - loss: 1.0714 - accuracy: 0.7789
+21/55 [==========>...................] - ETA: 2:36 - loss: 1.0382 - accuracy: 0.7805
+22/55 [===========>..................] - ETA: 2:31 - loss: 1.0040 - accuracy: 0.7862
+23/55 [===========>..................] - ETA: 2:27 - loss: 0.9720 - accuracy: 0.7935
+24/55 [============>.................] - ETA: 2:22 - loss: 0.9366 - accuracy: 0.8014
+25/55 [============>.................] - ETA: 2:18 - loss: 0.9103 - accuracy: 0.8044
+26/55 [=============>................] - ETA: 2:13 - loss: 0.8808 - accuracy: 0.8089
+27/55 [=============>................] - ETA: 2:08 - loss: 0.8581 - accuracy: 0.8119
+28/55 [==============>...............] - ETA: 2:04 - loss: 0.8413 - accuracy: 0.8142
+29/55 [==============>...............] - ETA: 1:59 - loss: 0.8200 - accuracy: 0.8179
+30/55 [===============>..............] - ETA: 1:55 - loss: 0.7995 - accuracy: 0.8219
+31/55 [===============>..............] - ETA: 1:50 - loss: 0.7780 - accuracy: 0.8261
+32/55 [================>.............] - ETA: 1:46 - loss: 0.7637 - accuracy: 0.8267
+33/55 [=================>............] - ETA: 1:41 - loss: 0.7604 - accuracy: 0.8239
+34/55 [=================>............] - ETA: 1:37 - loss: 0.7448 - accuracy: 0.8258
+35/55 [==================>...........] - ETA: 1:32 - loss: 0.7283 - accuracy: 0.8290
+36/55 [==================>...........] - ETA: 1:28 - loss: 0.7115 - accuracy: 0.8333
+37/55 [===================>..........] - ETA: 1:23 - loss: 0.7015 - accuracy: 0.8361
+38/55 [===================>..........] - ETA: 1:19 - loss: 0.6976 - accuracy: 0.8359
+39/55 [====================>.........] - ETA: 1:14 - loss: 0.6867 - accuracy: 0.8377
+40/55 [====================>.........] - ETA: 1:09 - loss: 0.6765 - accuracy: 0.8391
+41/55 [=====================>........] - ETA: 1:05 - loss: 0.6665 - accuracy: 0.8407
+42/55 [=====================>........] - ETA: 1:00 - loss: 0.6603 - accuracy: 0.8426
+43/55 [======================>.......] - ETA: 55s - loss: 0.6530 - accuracy: 0.8434 
+44/55 [=======================>......] - ETA: 51s - loss: 0.6426 - accuracy: 0.8455
+45/55 [=======================>......] - ETA: 46s - loss: 0.6330 - accuracy: 0.8472
+46/55 [========================>.....] - ETA: 41s - loss: 0.6262 - accuracy: 0.8478
+47/55 [========================>.....] - ETA: 37s - loss: 0.6160 - accuracy: 0.8504
+48/55 [=========================>....] - ETA: 32s - loss: 0.6081 - accuracy: 0.8516
+49/55 [=========================>....] - ETA: 27s - loss: 0.5995 - accuracy: 0.8530
+50/55 [==========================>...] - ETA: 23s - loss: 0.5918 - accuracy: 0.8541
+51/55 [==========================>...] - ETA: 18s - loss: 0.5851 - accuracy: 0.8548
+52/55 [===========================>..] - ETA: 13s - loss: 0.5773 - accuracy: 0.8558
+53/55 [===========================>..] - ETA: 9s - loss: 0.5703 - accuracy: 0.8576 
+54/55 [============================>.] - ETA: 4s - loss: 0.5626 - accuracy: 0.8594
+55/55 [==============================] - ETA: 0s - loss: 0.5587 - accuracy: 0.8602
+55/55 [==============================] - 255s 5s/step - loss: 0.5587 - accuracy: 0.8602 - val_loss: 0.6683 - val_accuracy: 0.5556
+Model egitme(fit) islemi bitti. (254.89 saniye)
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(460).jpg
+Bu fotograf: PNEUMONIA. OLASILIK:  89.22
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(461).jpg
+Bu fotograf: COVID19. OLASILIK:  74.53
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(462).jpg
+Bu fotograf: COVID19. OLASILIK:  65.57
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(463).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  77.44
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(464).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  53.67
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(465).jpg
+Bu fotograf: COVID19. OLASILIK:  57.50
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(466).jpg
+Bu fotograf: PNEUMONIA. OLASILIK:  83.45
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(467).jpg
+Bu fotograf: COVID19. OLASILIK:  76.74
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(468).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  71.82
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(469).jpg
+Bu fotograf: COVID19. OLASILIK:  48.69
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(470).jpg
+Bu fotograf: COVID19. OLASILIK:  79.55
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(471).jpg
+Bu fotograf: COVID19. OLASILIK:  65.67
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(472).jpg
+Bu fotograf: COVID19. OLASILIK:  64.37
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(473).jpg
+Bu fotograf: COVID19. OLASILIK:  53.07
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(474).jpg
+Bu fotograf: COVID19. OLASILIK:  60.28
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(475).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  92.59
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(476).jpg
+Bu fotograf: PNEUMONIA. OLASILIK:  78.68
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(477).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  97.29
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(478).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  94.14
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(479).jpg
+Bu fotograf: COVID19. OLASILIK:  64.85
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(480).jpg
+Bu fotograf: COVID19. OLASILIK:  70.16
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(481).jpg
+Bu fotograf: COVID19. OLASILIK:  70.16
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(482).jpg
+Bu fotograf: COVID19. OLASILIK:  64.88
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(483).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  77.90
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(484).jpg
+Bu fotograf: COVID19. OLASILIK:  71.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(485).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  76.03
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(486).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  67.92
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(487).jpg
+Bu fotograf: COVID19. OLASILIK:  81.09
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(488).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  70.91
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(489).jpg
+Bu fotograf: COVID19. OLASILIK:  37.63
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(490).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  93.58
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(491).jpg
+Bu fotograf: COVID19. OLASILIK:  55.09
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(492).jpg
+Bu fotograf: COVID19. OLASILIK:  51.42
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(493).jpg
+Bu fotograf: COVID19. OLASILIK:  57.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(494).jpg
+Bu fotograf: COVID19. OLASILIK:  82.50
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(495).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  65.69
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(496).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  68.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(497).jpg
+Bu fotograf: COVID19. OLASILIK:  79.56
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(498).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  76.28
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(499).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  70.80
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(500).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  56.62
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(501).jpg
+Bu fotograf: COVID19. OLASILIK:  63.94
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(502).jpg
+Bu fotograf: COVID19. OLASILIK:  49.33
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(503).jpg
+Bu fotograf: COVID19. OLASILIK:  48.87
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(504).jpg
+Bu fotograf: PNEUMONIA. OLASILIK:  81.50
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(505).jpg
+Bu fotograf: PNEUMONIA. OLASILIK:  65.32
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(506).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  71.46
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(507).jpg
+Bu fotograf: COVID19. OLASILIK:  69.51
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(508).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  79.09
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(509).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  77.86
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(510).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  64.47
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(511).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  59.60
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(512).jpg
+Bu fotograf: COVID19. OLASILIK:  63.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(513).jpg
+Bu fotograf: COVID19. OLASILIK:  56.77
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(514).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  53.25
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(515).jpg
+Bu fotograf: COVID19. OLASILIK:  78.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(516).jpg
+Bu fotograf: COVID19. OLASILIK:  75.54
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(517).jpg
+Bu fotograf: COVID19. OLASILIK:  61.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(518).jpg
+Bu fotograf: COVID19. OLASILIK:  65.72
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(519).jpg
+Bu fotograf: COVID19. OLASILIK:  51.33
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(520).jpg
+Bu fotograf: COVID19. OLASILIK:  72.81
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(521).jpg
+Bu fotograf: PNEUMONIA. OLASILIK:  48.85
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(522).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  68.75
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(523).jpg
+Bu fotograf: COVID19. OLASILIK:  72.08
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(524).jpg
+Bu fotograf: COVID19. OLASILIK:  71.45
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(525).jpg
+Bu fotograf: PNEUMONIA. OLASILIK:  49.82
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(526).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  73.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(527).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  80.42
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(528).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  69.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(529).jpg
+Bu fotograf: COVID19. OLASILIK:  56.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(530).jpg
+Bu fotograf: COVID19. OLASILIK:  50.59
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(531).jpg
+Bu fotograf: COVID19. OLASILIK:  50.07
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(532).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  66.65
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(533).jpg
+Bu fotograf: PNEUMONIA. OLASILIK:  73.52
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(534).jpg
+Bu fotograf: COVID19. OLASILIK:  50.35
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(535).jpg
+Bu fotograf: COVID19. OLASILIK:  68.64
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(536).jpg
+Bu fotograf: COVID19. OLASILIK:  55.63
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(537).jpg
+Bu fotograf: COVID19. OLASILIK:  41.73
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(538).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  49.67
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(539).jpg
+Bu fotograf: COVID19. OLASILIK:  76.17
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(540).jpg
+Bu fotograf: COVID19. OLASILIK:  72.28
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(541).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  87.68
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(542).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  70.82
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(543).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  54.22
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(544).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  60.54
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(545).jpg
+Bu fotograf: COVID19. OLASILIK:  77.09
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(546).jpg
+Bu fotograf: PNEUMONIA. OLASILIK:  47.17
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(547).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  72.32
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(548).jpg
+Bu fotograf: COVID19. OLASILIK:  68.35
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(549).jpg
+Bu fotograf: COVID19. OLASILIK:  49.62
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(550).jpg
+Bu fotograf: COVID19. OLASILIK:  50.56
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(551).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  70.91
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(552).jpg
+Bu fotograf: PNEUMONIA. OLASILIK:  55.85
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(553).jpg
+Bu fotograf: COVID19. OLASILIK:  82.94
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(554).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  79.59
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(555).jpg
+Bu fotograf: COVID19. OLASILIK:  68.06
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(556).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  82.27
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(557).jpg
+Bu fotograf: PNEUMONIA. OLASILIK:  68.21
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(558).jpg
+Bu fotograf: COVID19. OLASILIK:  66.32
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(559).jpg
+Bu fotograf: COVID19. OLASILIK:  53.15
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(560).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  62.44
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(561).jpg
+Bu fotograf: PNEUMONIA. OLASILIK:  70.58
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(562).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  71.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(563).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  81.54
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(564).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  75.76
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\COVID19(565).jpg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  88.47
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (1).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (10).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  97.13
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (100).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (101).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (102).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  97.74
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (103).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (104).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  97.01
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (105).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (106).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.79
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (107).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (108).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.69
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (109).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (11).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.53
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (110).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.93
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (111).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.94
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (112).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  96.77
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (113).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.87
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (114).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.92
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (115).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.55
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (116).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  95.63
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (117).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (118).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (119).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (12).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  66.43
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (120).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (121).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.91
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (122).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.83
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (123).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (124).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  96.87
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (125).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (126).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.89
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (127).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (128).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (129).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.69
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (13).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.67
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (130).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (131).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.84
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (132).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (133).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.90
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (134).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.84
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (135).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.08
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (136).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  87.83
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (137).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.56
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (138).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.87
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (139).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.71
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (14).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  83.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (140).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (141).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (142).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (143).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.84
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (144).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.78
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (145).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.86
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (146).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (147).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  85.39
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (148).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.25
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (149).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (15).jpeg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  83.23
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (150).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (151).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (152).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (153).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.08
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (154).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.53
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (155).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.55
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (156).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (157).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.75
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (158).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (159).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.84
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (16).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.64
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (160).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.93
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (161).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (162).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (163).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (164).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.14
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (165).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (166).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (167).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  61.61
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (168).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.81
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (169).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  95.07
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (17).jpeg
+Bu fotograf: COVID19. OLASILIK:  39.90
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (170).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  72.54
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (171).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  80.79
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (172).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.94
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (173).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.92
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (174).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (175).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (176).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  49.39
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (177).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (178).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.64
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (179).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (18).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.28
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (180).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (181).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.94
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (182).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (183).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (184).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (185).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (186).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.59
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (187).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (188).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (189).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.33
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (19).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (190).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (191).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (192).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (193).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (194).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.74
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (195).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  60.87
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (196).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (197).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (198).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (199).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (2).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.92
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (20).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.32
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (200).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.60
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (201).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (202).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.27
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (203).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (204).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (205).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (206).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (207).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.93
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (208).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (209).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (21).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  94.64
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (210).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (211).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.75
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (212).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  97.83
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (213).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (214).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (215).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.74
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (216).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (217).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.84
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (218).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (219).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (22).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (220).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.79
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (221).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.41
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (222).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (223).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (224).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (225).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (226).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (227).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (228).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (229).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.27
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (23).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.33
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (230).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.27
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (231).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.80
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (232).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (233).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (234).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (235).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (236).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.76
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (237).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.93
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (238).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.65
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (239).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.84
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (24).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (240).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (241).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  97.53
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (242).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (243).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.73
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (244).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.82
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (245).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  96.38
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (246).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.06
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (247).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  97.36
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (248).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  97.36
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (249).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (25).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (250).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.83
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (251).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (252).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.69
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (253).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.80
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (254).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (255).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.71
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (256).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.49
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (257).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  88.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (258).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  79.30
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (259).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  97.66
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (26).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (260).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (261).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (262).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.94
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (263).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.92
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (264).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (265).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (266).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.07
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (267).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (268).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (269).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (27).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.93
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (270).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (271).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (272).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (273).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.54
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (274).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.36
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (275).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (276).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  95.29
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (277).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.92
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (278).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.85
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (279).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (28).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (280).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (281).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.50
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (282).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.70
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (283).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (284).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (285).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.54
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (286).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.42
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (287).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (288).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.76
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (289).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (29).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (290).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.70
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (291).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (292).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (293).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (294).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (295).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (296).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (297).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (298).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  65.86
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (299).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.38
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (3).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.79
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (30).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.50
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (300).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.81
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (301).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.80
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (302).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.47
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (303).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (304).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.07
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (305).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.86
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (306).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (307).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (308).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.39
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (309).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (31).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (310).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (311).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.78
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (312).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.39
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (313).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  94.31
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (314).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (315).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (316).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (317).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (318).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (319).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.69
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (32).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (320).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.26
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (321).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.71
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (322).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.61
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (323).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (324).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (325).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (326).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  92.05
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (327).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (328).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (329).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (33).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.92
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (330).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.93
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (331).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.91
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (332).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (333).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.94
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (334).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.53
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (335).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.68
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (336).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (337).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (338).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (339).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (34).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.87
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (340).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.70
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (341).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (342).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (343).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (344).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (345).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (346).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  97.83
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (347).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (348).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.92
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (349).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.94
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (35).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (350).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (351).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (352).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (353).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (354).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  96.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (355).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (356).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.75
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (357).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (358).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (359).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  96.61
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (36).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (360).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (361).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (362).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (363).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (364).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.32
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (365).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (366).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.80
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (367).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (368).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.94
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (369).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.15
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (37).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (370).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.15
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (371).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.82
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (372).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  95.38
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (373).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (374).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (375).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.92
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (376).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (377).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (378).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.91
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (379).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (38).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (380).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (381).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.85
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (382).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (383).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.57
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (384).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (385).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (386).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (387).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (388).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (389).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.41
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (39).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (390).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.92
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (4).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.93
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (40).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (41).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.94
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (42).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (43).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (44).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (45).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (46).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (47).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (48).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.81
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (49).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (5).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (50).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (51).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (52).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.92
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (53).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (54).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (55).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (56).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (57).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (58).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (59).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (6).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (60).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (61).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (62).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (63).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.94
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (64).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (65).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (66).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.92
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (67).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (68).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (69).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (7).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (70).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (71).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (72).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.49
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (73).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (74).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (75).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (76).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (77).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.34
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (78).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (79).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  60.75
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (8).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  88.29
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (80).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (81).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.79
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (82).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.93
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (83).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (84).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.98
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (85).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  98.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (86).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (87).jpeg
+Bu fotograf: TURBERCULOSIS. OLASILIK:  70.52
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (88).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (89).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (9).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  89.78
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (90).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.97
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (91).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  89.25
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (92).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  90.34
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (93).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.95
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (94).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.36
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (95).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  93.08
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (96).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (97).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  100.00
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (98).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  76.66
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\pnem (99).jpeg
+Bu fotograf: PNEUMONIA. OLASILIK:  99.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (1).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  89.75
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (10).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  89.48
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (11).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  97.20
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (12).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  95.36
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (13).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  96.15
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (14).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  84.37
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (15).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  95.57
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (16).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  94.59
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (17).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  86.93
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (18).png
+Bu fotograf: COVID19. OLASILIK:  55.46
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (19).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  68.94
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (2).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  82.62
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (20).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  82.85
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (21).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  96.61
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (22).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  94.17
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (23).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  81.84
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (24).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  90.19
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (25).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  90.22
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (26).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  77.04
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (27).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  85.56
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (28).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  92.91
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (29).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  79.96
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (3).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  94.56
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (30).png
+Bu fotograf: PNEUMONIA. OLASILIK:  98.99
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (31).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  89.55
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (32).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  62.83
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (33).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  91.61
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (34).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  80.72
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (35).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  68.16
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (36).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  57.68
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (37).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  55.70
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (38).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  89.71
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (39).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  48.65
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (4).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  51.68
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (40).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  94.20
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (41).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  66.71
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (5).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  74.01
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (6).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  50.82
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (7).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  51.72
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (8).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  71.07
+E:\21-22 PROJELER\makine_ogrenmesi\Mehtap Banu Machine Learning\preprocessed_data\test\tberc (9).png
+Bu fotograf: TURBERCULOSIS. OLASILIK:  72.18
